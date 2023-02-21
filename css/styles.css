@@ -42,12 +42,6 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0 auto;
 }
 
-.content-wrapper {
-  max-width: 980px;
-  margin: 0 auto;
-  min-height: 1075px;
-}
-
 .nav-holder {
   width: 100%;
 }
@@ -89,7 +83,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media (max-width: 1200px) {
   .nav-holder {
-    margin-left: 13px;
+    margin: 0 auto;
     width: 95%;
   }
 }
@@ -133,23 +127,99 @@ h1, h2, h3, h4, h5, h6, p {
     padding-right: 7px;
   }
 }
-.about .about-text {
+.content-wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  min-height: 950px;
+}
+.content-wrapper .about .about-text {
   margin-top: 100px;
 }
-.about .about-text h1 {
+.content-wrapper .about .about-text h1 {
   border-bottom: solid 2px #000;
   width: 171px;
   font-size: 60px;
   letter-spacing: 5px;
   font-family: "Proxima Nova Condensed";
 }
-.about .about-text p {
+.content-wrapper .about .about-text p {
   margin-top: 35px;
   margin-bottom: 100px;
   font-family: "Gill Sans";
   font-size: 16px;
 }
+.content-wrapper .about h2 {
+  letter-spacing: 2px;
+  border-bottom: solid 2px #000;
+  width: 225px;
+  font-family: "Proxima Nova Condensed";
+  font-size: 40px;
+}
+.content-wrapper .about .client-holder {
+  display: flex;
+  max-width: 712px;
+  height: 150px;
+  margin: 35px 0px;
+}
+.content-wrapper .about .client-holder .client-photo {
+  height: 100%;
+  width: 35%;
+}
+.content-wrapper .about .client-holder .client-text {
+  height: 100%;
+  width: 65%;
+  margin-left: 20px;
+  font-family: "Gill Sans Italic";
+  font-size: 16px;
+  line-height: 20px;
+}
+.content-wrapper .about .client-holder .client-text .client-name {
+  color: #79ADDC;
+  margin-top: 70px;
+  text-align: end;
+  font-size: 20px;
+  font-family: "Proxima Nova Thin";
+}
 
+.miranda {
+  background-image: url(../images/about-client-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.johnathan {
+  background-image: url(../images/about-client-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 1024px) {
+  .content-wrapper {
+    margin: 0 auto;
+    width: 93%;
+  }
+}
+@media (max-width: 768px) {
+  .content-wrapper .about .client-holder .client-name {
+    margin-top: 36px !important;
+  }
+}
+@media (max-width: 500px) {
+  .content-wrapper .about .client-holder .client-name {
+    margin-top: 15px !important;
+  }
+}
+@media (max-width: 425px) {
+  .content-wrapper .about .client-holder .client-text {
+    font-size: 14px !important;
+    line-height: 18px !important;
+  }
+  .content-wrapper .about .client-holder .client-name {
+    font-size: 18px !important;
+  }
+}
 footer {
   background-color: #79ADDC;
   font-family: "Gill Sans";
