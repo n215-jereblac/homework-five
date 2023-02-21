@@ -39,13 +39,16 @@ h1, h2, h3, h4, h5, h6, p {
 .site-wrapper {
   max-width: 1280px;
   min-height: 500px;
-  background-color: green;
   margin: 0 auto;
 }
 
+.content-wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  min-height: 1075px;
+}
+
 .nav-holder {
-  top: 0;
-  z-index: 5;
   width: 100%;
 }
 .nav-holder nav {
