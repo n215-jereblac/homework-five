@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url(../css/fonts/Gill\ Sans.otf);
+}
+@font-face {
+  font-family: "Gill Sans Italic";
+  src: url(../css/fonts/Gill\ Sans\ Italic.otf);
+}
+@font-face {
+  font-family: "Gill Sans Bold";
+  src: url(../css/fonts/Gill\ Sans\ Bold.otf);
+}
+@font-face {
+  font-family: "Gill Sans Light";
+  src: url(../css/fonts/Gill\ Sans\ Light.otf);
+}
+@font-face {
+  font-family: "Proxima Nova Thin";
+  src: url(../css/fonts/Proxima-Nova-Thin.otf);
+}
+@font-face {
+  font-family: "Proxima Nova Condensed";
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.site-wrapper {
+  max-width: 1280px;
+  min-height: 500px;
+  background-color: green;
+  margin: 0 auto;
+}
+
+.nav-holder {
+  top: 0;
+  z-index: 5;
+  width: 100%;
+}
+.nav-holder nav {
+  max-width: 980px;
+  height: 90px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000;
+  display: flex;
+  align-items: center;
+  font-family: "Gill Sans";
+}
+.nav-holder nav .logo {
+  color: #FFF;
+}
+.nav-holder nav .link-holder {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.nav-holder nav .link-holder .links {
+  max-width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-holder nav .link-holder .links a {
+  padding-right: 21.5px;
+  padding-left: 21.5px;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 15px;
+  border-right: 1px solid #79ADDC;
+}
+.nav-holder nav .link-holder .links a:last-child {
+  border-right: none;
+  padding-right: 0px;
+}
+
+.logo-img {
+  background-image: url(../images/logo-white.png);
+}
+
+@media (max-width: 1200px) {
+  .nav-holder {
+    left: 13px;
+    width: 95%;
+  }
+}
+@media (max-width: 630px) {
+  .nav-holder nav .link-holder .links a {
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .nav-holder nav .logo img {
+    width: 80px;
+  }
+}
+@media (max-width: 480px) {
+  .nav-holder nav .link-holder .links a {
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .nav-holder nav .logo img {
+    width: 60px;
+  }
+}
+@media (max-width: 420px) {
+  .nav-holder {
+    max-width: 90%;
+  }
+  .nav-holder nav .link-holder .links a {
+    font-size: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .nav-holder nav .logo img {
+    width: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .nav-holder nav .link-holder .links a {
+    font-size: 8.5px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}
+footer {
+  background-color: #79ADDC;
+  font-family: "Gill Sans";
+  width: 100%;
+  color: #FFF;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+footer .footer {
+  margin: 0 auto;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer p {
+  font-size: 12px;
+  text-align: center;
+  margin: 0 auto;
+}
+footer .footer .socials {
+  display: flex;
+  justify-content: space-evenly;
+  width: 120px;
+  font-size: 20px;
+}
+footer .footer .socials a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+@media (max-width: 1200px) {
+  footer {
+    margin-top: 53px;
+  }
+  footer .footer {
+    width: 95%;
+  }
+}
+@media (max-width: 860px) {
+  footer {
+    margin-top: 113px;
+  }
+}
+@media (max-width: 500px) {
+  footer .footer p {
+    font-size: 8px;
+  }
+  footer .footer img {
+    width: 80px;
+  }
+}
+@media (max-width: 500px) {
+  footer .footer p {
+    font-size: 8px;
+  }
+  footer .footer img {
+    width: 80px;
+  }
+  footer .footer .socials {
+    width: 100px;
+  }
+  footer .footer .socials a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 500px) {
+  footer .footer img {
+    width: 60px;
+  }
+  footer .footer .socials {
+    width: 90px;
+  }
+  footer .footer .socials a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 360px) {
+  footer .footer p {
+    font-size: 7px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
