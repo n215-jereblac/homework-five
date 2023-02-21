@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6, p {
 .nav-holder nav .link-holder .links a {
   padding-right: 21.5px;
   padding-left: 21.5px;
-  color: #FFF;
+  color: #000;
   text-decoration: none;
   font-size: 15px;
   border-right: 1px solid #79ADDC;
@@ -82,10 +82,6 @@ h1, h2, h3, h4, h5, h6, p {
 .nav-holder nav .link-holder .links a:last-child {
   border-right: none;
   padding-right: 0px;
-}
-
-.logo-img {
-  background-image: url(../images/logo-white.png);
 }
 
 @media (max-width: 1200px) {
