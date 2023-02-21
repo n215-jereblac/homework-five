@@ -140,7 +140,14 @@ h1, h2, h3, h4, h5, h6, p {
   border-bottom: solid 2px #000;
   width: 171px;
   font-size: 60px;
+  letter-spacing: 5px;
   font-family: "Proxima Nova Condensed";
+}
+.about .about-text p {
+  margin-top: 35px;
+  margin-bottom: 100px;
+  font-family: "Gill Sans";
+  font-size: 16px;
 }
 
 footer {

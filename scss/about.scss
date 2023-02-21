@@ -5,7 +5,14 @@
             border-bottom: solid 2px $black;
             width: 171px;
             font-size: 60px;
+            letter-spacing: 5px;
             font-family: $NovaC;
+        }
+        p {
+            margin-top: 35px;
+            margin-bottom: 100px;
+            font-family: $GS;
+            font-size: 16px;
         }
     }
 }
